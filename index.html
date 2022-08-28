@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ==== Document Title ==== -->
+    <title>SEOCrack - Responsive SEO and SMM HTML Template</title>
+    
+    <!-- ==== Document Meta ==== -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- ==== Favicons ==== -->
+    <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/logo%20NS%20MANIOBRAS.png?alt=media&token=465741bc-2ada-4d5d-9bc9-b2fba2cd7d1e" type="image/x-icon">
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/logo%20NS%20MANIOBRAS.png?alt=media&token=465741bc-2ada-4d5d-9bc9-b2fba2cd7d1e" type="image/x-icon">
+
+    <!-- ==== Google Font ==== -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700%7CRoboto:300,400,500,700" rel="stylesheet">
+
+    <!-- ==== Font Awesome ==== -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- ==== jQuery UI ==== -->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    
+    <!-- ==== Bootstrap Framework ==== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- ==== FakeLoader Plugin ==== -->
+    <link href="css/fakeLoader.css" rel="stylesheet">
+    
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- ==== Magnific Popup Plugin ==== -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    
+    <!-- ==== Bar Rating Plugin ==== -->
+    <link href="css/fontawesome-stars-o.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <!-- ==== Responsive Stylesheet ==== -->
+    <link href="css/responsive-style.css" rel="stylesheet">
+
+    <!-- ==== Theme Color Stylesheet ==== -->
+    <link href="css/colors/color-1.css" rel="stylesheet" id="changeColorScheme">
+    
+
+
+
+
+
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate CSS -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- owl carousel CSS -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <!-- themify CSS -->
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <!-- flaticon CSS -->
+        <link rel="stylesheet" href="css/flaticon.css">
+        <!-- font awesome CSS -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+        <!-- swiper CSS -->
+        <link rel="stylesheet" href="css/slick.css">
+        <!-- style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+        
+    <!-- ==== Custom Stylesheet ==== -->
+    <link href="css/custom.css" rel="stylesheet">
+        <!-- ==== Main Stylesheet ==== -->
+        <link href="style.css" rel="stylesheet">
+
+    <!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/1.1.7/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="preloader"></div>
+    <!-- Preloader End -->
+
+    <!-- Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Section Start -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <header class=header>
+           <a href="./"> <img src="https://www.nsmaniobras.com/images/templatemo_logo.png" alt="Logo NS maniobras"></a>
+            <nav>
+                <ul>
+                    <li class="lista"><a href="./">Inicio</a></li>
+                    <li class="lista"><a href="./nosotros.html">Nosotros</a></li>
+                    <li class="lista"><a href="./servicios.html">Servicios</a></li>
+                    <li class="lista"><a href="./contactar.html">Contactar</a></li>
+                </ul>
+            </nav>
+            <div id="burger-menu">
+                <div></div>
+            </div>
+        </header>
+    <script>
+        $('#burger-menu').click(function(event) {
+	event.preventDefault();
+	
+	// add class
+	$('nav').toggleClass('menu-responsive');
+
+	var classExist = $('nav').hasClass('menu-responsive');
+
+	// move container
+	if(classExist){
+			$('.container').css('transform', 'translateY(160px)');
+	} else {
+		$('.container').css('transform', 'translateY(0px)');
+	}
+	
+	// resize
+	$( window ).resize(function() {
+		// delete class if not closed
+		$('nav').removeClass('menu-responsive');
+		// reset the place of the container
+		$('.container').css('transform', 'translateY(0px)');
+	});
+	
+}); 
+    </script>
+         
+        <!-- Header Section End -->
+
+        <!-- Banner Section Start -->
+        <div class="banner--section bg--color-theme">
+            <!-- Banner Slider Start -->
+            <br>
+            <br>
+            <br>
+    
+            <div   class="banner--slider owl-carousel pd--100-0-70" data-owl-dots="true">
+                <!-- Banner Item Start -->
+                <div class="banner--item">
+                    <div class="container">
+                        <div class="row row--vc">
+                            <div class="col-md-6">
+                                <!-- Banner Content Start -->
+                                <div class="banner--content">
+                                    <div class="title">
+                                        <h1 class="h1">ALQUILER DE MONTACARGAS</h1>
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>NS MANIOBRAS es una empresa con amplia trayectoria, especializada en brindar servicios de alquiler.</p>
+                                    </div>
+
+                                    <div >
+                                        <a href="./contactar.html" class="btn btn-default active">Cotizar</a>
+                                    </div>
+                                </div>
+                                <!-- Banner Content End -->
+                            </div>
+
+                            <div class="col-md-6 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-xxs-12">
+                                <!-- Banner Image Start -->
+                                <div class="banner--img">
+                                    <img src="./img/slider01.png" alt="">
+                                </div>
+                                <!-- Banner Image End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner Item End -->
+
+                <!-- Banner Item Start -->
+                <div class="banner--item">
+                    <div class="container">
+                        <div class="row row--vc">
+                            <div class="col-md-6 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-xxs-12">
+                                <!-- Banner Image Start -->
+                                <div class="banner--img">
+                                    <img src="img/slider02.png" alt="">
+                                </div>
+                                <!-- Banner Image End -->
+                            </div>
+
+                            <div class="col-md-6">
+                                <!-- Banner Content Start -->
+                                <div class="banner--content">
+                                    <div class="title">
+                                        <h1 class="h1">MANTENIMIENTO Y REPARACIÓN</h1>
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Servicios de diagnóstico, mantenimiento y reparación de
+                                             montacargas para todas las marcas y capacidades 
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <a href="#" class="btn btn-default active">Cotizar</a>
+                                    </div>
+                                </div>
+                                <!-- Banner Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner Item End -->
+
+                <!-- Banner Item Start -->
+                <div class="banner--item">
+                    <div class="container">
+                        <div class="row row--vc">
+                            <div class="col-md-6">
+                                <!-- Banner Content Start -->
+                                <div class="banner--content">
+                                    <div class="title">
+                                        <h1 class="h1">VENTA DE MONTACARGAS</h1>
+                                    </div>
+
+                                    <div class="desc">
+                                        <p>Tenemos una amplia gama de Montacargas que tu empresa necesita.
+                                        </p>
+                                    </div>
+
+                                    <div >
+                                        <a href="#" class="btn btn-default active">Cotizar</a>
+                                    </div>
+                                </div>
+                                <!-- Banner Content End -->
+                            </div>
+
+                            <div class="col-md-6 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-xxs-12">
+                                <!-- Banner Image Start -->
+                                <div class="banner--img">
+                                    <img src="img/slider03.png" alt="">
+                                </div>
+                                <!-- Banner Image End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner Item End -->
+            </div>
+            <!-- Banner Slider End -->
+        </div>
+        <!-- Banner Section End -->
+
+      <!-- About Section Start -->
+      <div class="about--section pd--100-0-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pbottom--60">
+                    <!-- About Image Start -->
+                    <div class="about--img">
+                        <img src="./img/about.png" alt="">
+                    </div>
+                    <!-- About Image End -->
+                </div>
+
+                <div class="col-md-6 pbottom--60">
+                    <!-- About Content Start -->
+                    <div class="about--content">
+                        <!-- Section Title Start -->
+                        <div class="section--title section--title-left">
+                            <h2 class="h2" style="font-size: 50px;">NS MANIOBRAS
+                            </h2>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <div style=" font-size: 18px; width: 80%;" class="body">
+                            <p>Una empresa dedicada al servicio de alquiler, mantenimiento y venta de Montacargas.</p>
+                        </div>
+                        <br>
+
+                        <div >
+                            <a href="#" class="btn btn-default active">Ver más</a>
+                        </div>
+                    </div>
+                   
+                    <!-- About Content End -->
+                </div>
+
+             
+            </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+
+
+        <!-- Features Section Start -->
+     
+        <!-- Features Section End -->
+
+        <!-- Intro Section Start -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/1.1.7/waypoints.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <!-- Intro Section End -->
+        <section class="fun-fact-title-one text-center">
+            <div class="container">
+                <div class="sec-title pb-0">
+                    <h2 class="light">Nuestros números  <span>lo dicen todo</span></h2>
+                </div><!-- /.sec-title -->
+            </div><!-- /.container -->
+        </section><!-- /.fun-fact-title-one -->
+    
+        <section class="fun-fact-style-one sec-pad-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-fun-fact-style-one text-center">
+                            <span style="color: #fff; font-size: 30px;">+</span><h3 class="counter">750000</h3>
+                            <p style="font-size: 18px;">Toneladas cargadas</p>
+                        </div><!-- /.single-fun-fact-style-one -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-fun-fact-style-one text-center">
+                               <span style="color: #fff; font-size: 30px;">+</span> <h3 class="counter">580</h3>
+                            <p style="font-size: 18px;">Proyectos y Operaciones</p>
+                        </div><!-- /.single-fun-fact-style-one -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-fun-fact-style-one text-center">
+                              <span style="color: #fff; font-size: 30px;">+</span>  <h3 class="counter">50</h3>
+                            <p style="font-size: 18px;">Personas operando en el Perú</p>
+                        </div><!-- /.single-fun-fact-style-one -->
+                    </div><!-- /.col-lg-3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-fun-fact-style-one text-center">
+                             <span style="color: #fff; font-size: 30px;">+</span>   <h3 class="counter">50</h3>
+                            <p style="font-size: 18px;">Equipos a tu disposición</p>
+                        </div><!-- /.single-fun-fact-style-one -->
+                    </div><!-- /.col-lg-3 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+            <script>
+                if ($('.counter').length) {
+                    $('.counter').counterUp({
+                        delay: 10,
+                        time: 3000
+                    });
+                }
+            </script>
+        </section><!-- /.fun-fact-style-one -->
+
+
+     
+
+
+
+ 
+
+        <!-- Team Section Start -->
+        <div class="team--section pd--100-0">
+            <div class="container">
+                <!-- Section Title Start -->
+                <div class="section--title">
+                    <h2 class="h2" style="    font-size: 50px;">Proyectos  </h2>
+                    <p style="font-size: 18px; padding: 10px 0;">Trabajamos para darte la mejor experiencia</p>
+                </div>
+                <!-- Section Title End -->
+   <!-- Gallery Section Start -->
+   <div class="gallery--section pd--100-0-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <!-- Gallery Item Start -->
+                <div class="gallery--item">
+                    <div class="img">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/fotos%2FWhatsApp%20Image%202021-08-11%20at%209.35.14%20PM%20(1).jpeg.png?alt=media&token=27f11bb4-8ebe-4787-be28-20065e0cdea5%201094w" data-popup="img">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/fotos%2FWhatsApp%20Image%202021-08-11%20at%209.35.14%20PM%20(1).jpeg.png?alt=media&token=27f11bb4-8ebe-4787-be28-20065e0cdea5%201094w" alt="">
+                        </a>
+                    </div> 
+                </div>
+                <!-- Gallery Item End -->
+            </div>
+            
+            <div class="col-sm-4">
+                <!-- Gallery Item Start -->
+                <div class="gallery--item">
+                    <div class="img">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/BG_0001.png?alt=media&token=b154f8e8-85ef-455b-a7ae-231ce8485b80%201094w" data-popup="img">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/BG_0001.png?alt=media&token=b154f8e8-85ef-455b-a7ae-231ce8485b80%201094w" alt="">
+                        </a>
+                    </div> 
+                </div>
+                <!-- Gallery Item End -->
+            </div>
+            
+            <div class="col-sm-4">
+                <!-- Gallery Item Start -->
+                <div class="gallery--item">
+                    <div class="img">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/WhatsApp%20Image%202021-08-10%20at%206.17.47%20PM.jpeg.png?alt=media&token=28330bf7-32a3-45b8-abd5-f52e506a7bf4%201094w" data-popup="img">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/WhatsApp%20Image%202021-08-10%20at%206.17.47%20PM.jpeg.png?alt=media&token=28330bf7-32a3-45b8-abd5-f52e506a7bf4%201094w" alt="">
+                        </a>
+                    </div> 
+                </div>
+                <!-- Gallery Item End -->
+            </div>
+            
+            <div class="col-sm-4">
+                <!-- Gallery Item Start -->
+                <div class="gallery--item">
+                    <div class="img">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/WhatsApp%20Image%202021-08-10%20at%205.40.17%20PM.jpeg.png?alt=media&token=9b3e4495-5a90-48f9-bc61-b7eca1d243e4%201094w" data-popup="img">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/WhatsApp%20Image%202021-08-10%20at%205.40.17%20PM.jpeg.png?alt=media&token=9b3e4495-5a90-48f9-bc61-b7eca1d243e4%201094w" alt="">
+                        </a>
+                    </div> 
+                </div>
+                <!-- Gallery Item End -->
+            </div>
+            
+            <div class="col-sm-4">
+                <!-- Gallery Item Start -->
+                <div class="gallery--item">
+                    <div class="img">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/WhatsApp%20Image%202021-08-10%20at%206.18.55%20PM.jpeg.png?alt=media&token=2d4e95e2-6501-4b8c-a7e1-fa399c65c715%201094w" data-popup="img">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/WhatsApp%20Image%202021-08-10%20at%206.18.55%20PM.jpeg.png?alt=media&token=2d4e95e2-6501-4b8c-a7e1-fa399c65c715%201094w" alt="">
+                        </a>
+                    </div>
+
+               
+                </div>
+                <!-- Gallery Item End -->
+            </div>
+            
+            <div class="col-sm-4">
+                <!-- Gallery Item Start -->
+                <div class="gallery--item">
+                    <div class="img">
+                        <a href="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/fotos%2FWhatsApp%20Image%202021-08-11%20at%209.35.14%20PM%20(2).jpeg.png?alt=media&token=44afc55e-6276-4352-933f-0556c5a052e7%201094w" data-popup="img">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/fotos%2FWhatsApp%20Image%202021-08-11%20at%209.35.14%20PM%20(2).jpeg.png?alt=media&token=44afc55e-6276-4352-933f-0556c5a052e7%201094w" alt="">
+                        </a>
+                    </div> 
+                </div>
+                <!-- Gallery Item End -->
+            </div>
+
+     
+       
+
+  
+
+       
+        </div>
+    </div>
+</div>
+<!-- Gallery Section End -->
+ 
+            </div>
+        </div>
+        <!-- Team Section End -->
+ 
+      
+    <div id='whatsapp-chat' class='hide'>
+        <div class='header-chat'>
+          <div class='head-home'>
+            <div class='info-avatar'><img src='./img/logoNS.png' /></div>
+            <p><span class="whatsapp-name">NS MANIOBRAS</span><br><small>En línea</small></p>
+      
+          </div>
+          <div class='get-new hide'>
+            <div id='get-label'></div>
+            <div id='get-nama'></div>
+          </div>
+        </div>
+        <div class='home-chat'>
+      
+        </div>
+        <div class='start-chat'>
+          <div pattern="https://elfsight.com/assets/chats/patterns/whatsapp.png" class="WhatsappChat__Component-sc-1wqac52-0 whatsapp-chat-body">
+            <div class="WhatsappChat__MessageContainer-sc-1wqac52-1 dAbFpq">
+              <div style="opacity: 0;" class="WhatsappDots__Component-pks5bf-0 eJJEeC">
+                <div class="WhatsappDots__ComponentInner-pks5bf-1 hFENyl">
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotOne-pks5bf-3 ixsrax"></div>
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotTwo-pks5bf-4 dRvxoz"></div>
+                  <div class="WhatsappDots__Dot-pks5bf-2 WhatsappDots__DotThree-pks5bf-5 kXBtNt"></div>
+                </div>
+              </div>
+              <div style="opacity: 1;" class="WhatsappChat__Message-sc-1wqac52-4 kAZgZq">
+                <div class="WhatsappChat__Author-sc-1wqac52-3 bMIBDo">NS MANIOBRAS</div>
+                <div class="WhatsappChat__Text-sc-1wqac52-2 iSpIQi">Hola, bienvenido a nuestro sitio 👋<br><br>¿Te puedo ayudar en algo?</div>
+                <div class="WhatsappChat__Time-sc-1wqac52-5 cqCDVm">1:40</div>
+              </div>
+            </div>
+          </div>
+      
+          <div class='blanter-msg'>
+            <textarea id='chat-input' placeholder='Escribir un mensaje' maxlength='120' row='1'></textarea>
+            <a href='javascript:void;' id='send-it'><svg viewBox="0 0 448 448"><path d="M.213 32L0 181.333 320 224 0 266.667.213 416 448 224z"/></svg></a>
+      
+          </div>
+        </div>
+        <div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
+      </div>
+      <a class='blantershow-chat' href='javascript:void' title='Show Chat'><svg width="20" viewBox="0 0 24 24"><defs/><path fill="#eceff1" d="M20.5 3.4A12.1 12.1 0 0012 0 12 12 0 001.7 17.8L0 24l6.3-1.7c2.8 1.5 5 1.4 5.8 1.5a12 12 0 008.4-20.3z"/><path fill="#4caf50" d="M12 21.8c-3.1 0-5.2-1.6-5.4-1.6l-3.7 1 1-3.7-.3-.4A9.9 9.9 0 012.1 12a10 10 0 0117-7 9.9 9.9 0 01-7 16.9z"/><path fill="#fafafa" d="M17.5 14.3c-.3 0-1.8-.8-2-.9-.7-.2-.5 0-1.7 1.3-.1.2-.3.2-.6.1s-1.3-.5-2.4-1.5a9 9 0 01-1.7-2c-.3-.6.4-.6 1-1.7l-.1-.5-1-2.2c-.2-.6-.4-.5-.6-.5-.6 0-1 0-1.4.3-1.6 1.8-1.2 3.6.2 5.6 2.7 3.5 4.2 4.2 6.8 5 .7.3 1.4.3 1.9.2.6 0 1.7-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>WhatsApp</a>
+     
+
+
+      
+<script>
+    /* Whatsapp Chat Widget by www.bloggermix.com */
+$(document).on("click", "#send-it", function() {
+var a = document.getElementById("chat-input");
+if ("" != a.value) {
+var b = $("#get-number").text(),
+  c = document.getElementById("chat-input").value,
+  d = "https://web.whatsapp.com/send",
+  e = b,
+  f = "&text=" + c;
+if (
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  )
+)
+  var d = "whatsapp://send";
+var g = d + "?phone=+51 974636332" + e + f;
+window.open(g, "_blank");
+}
+}),
+$(document).on("click", ".informasi", function() {
+(document.getElementById("get-number").innerHTML = $(this)
+  .children(".my-number")
+  .text()),
+  $(".start-chat,.get-new")
+    .addClass("show")
+    .removeClass("hide"),
+  $(".home-chat,.head-home")
+    .addClass("hide")
+    .removeClass("show"),
+  (document.getElementById("get-nama").innerHTML = $(this)
+    .children(".info-chat")
+    .children(".chat-nama")
+    .text()),
+  (document.getElementById("get-label").innerHTML = $(this)
+    .children(".info-chat")
+    .children(".chat-label")
+    .text());
+}),
+$(document).on("click", ".close-chat", function() {
+$("#whatsapp-chat")
+  .addClass("hide")
+  .removeClass("show");
+}),
+$(document).on("click", ".blantershow-chat", function() {
+$("#whatsapp-chat")
+  .addClass("show")
+  .removeClass("hide");
+});
+
+</script>
+        <a href="tel:+51974636332" class="whatsapp-button"  style="position: fixed;  left: 30px; border: 1px solid #ffede6; bottom: 25px; z-index: 10000; background: #fff;  padding: 5px 10px 5px 10px; border-radius: 10px; box-shadow: 1px -1px 8px -2px rgba(90,90,90,0.75);">
+            <p  style="color: black;"><i class="fas fa-phone-alt"  style="color: #ff5e13;"> </i> Llamar: 974636332</p>
+            </a>
+    
+ 
+     
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-footer-widget footer_1">
+                        <a href="index.html"> <img src="https://firebasestorage.googleapis.com/v0/b/ns-maniobras.appspot.com/o/logo%20NS%20MANIOBRAS.png?alt=media&token=465741bc-2ada-4d5d-9bc9-b2fba2cd7d1e" alt="Alquiler de montacargas logo"> </a>
+                        <p>NS MANIOBRAS es una empresa con amplia trayectoria, especializada en brindar 
+                            servicios de alquiler, reparación y mantenimiento de Montacargas.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Mejores servicios</h4>
+                        <div class="contact_info">
+                            <ul>
+                                <li>
+                                    <a href="./servicios.html#servicios">Alquiler de montacargas</a>
+                                </li>
+                                <li>
+                                    <a href="./servicios.html#servicios">Reparación de montacargas</a>
+                                </li>
+                                <li>
+                                    <a href="./servicios.html#servicios">Mantenimiento de montacargas</a>
+                                </li>
+                                <li>
+                                    <a href="./servicios.html#stockas">Venta de stockas</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Venta de montacargas </h4>
+                        <div class="contact_info">
+                          <p>Ofrecemos el servicio de venta y asesoría de compra de montacargas y repuestos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-md-4">
+                    <div class="single-footer-widget footer_2">
+                        <h4>Datos de contacto   </h4>
+                        <div class="contact_info"> 
+                            <p>Car. Panamericana Sur km. 40 MZ. 24 Lt. 7A - Lurin</p>
+                            <p><span> Telf :</span><a href="tel:+51974636332" style="color: #FFC500;"> 974 636 332</a></p>
+                            <p><span> Email : </span><a href="mailto:ventas@nsmaniobras.com" style="color: #FFC500;"> ventas@nsmaniobras.com</a></p>
+                            <p><span> Email : </span><a href="mailto:nsantos@nsmaniobras.comm" style="color: #FFC500;"> nsantos@nsmaniobras.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright_part_text text-center">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados || Este sitio web fue realizada con <i class="ti-heart" aria-hidden="true"></i> por <a href="https://tuncardev.com" target="_blank">Percy Tuncar</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end-->
+
+        <!-- Back To Top Button Start -->
+        <div class="back-to-top-btn">
+            <a href="#" class="active"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Back To Top Button End -->
+    </div>
+    <!-- Wrapper End -->
+
+    <!-- ==== jQuery Library ==== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- ==== jQuery UI ==== -->
+    <script src="js/jquery-ui.min.js"></script>
+
+    <!-- ==== Bootstrap Framework ==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ==== FakeLoader Plugin ==== -->
+    <script src="js/fakeLoader.min.js"></script>
+
+    <!-- ==== StickyJS Plugin ==== -->
+    <script src="js/jquery.sticky.min.js"></script>
+
+    <!-- ==== Owl Carousel Plugin ==== -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- ==== Validation Plugin ==== -->
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!-- ==== Magnific Popup Plugin ==== -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- ==== Isotope Plugin ==== -->
+    <script src="js/isotope.min.js"></script>
+
+    <!-- ==== Waypoints Plugin ==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <!-- ==== Bar Rating Plugin ==== -->
+    <script src="js/jquery.barrating.min.js"></script>
+
+    <!-- ==== RetinaJS Plugin ==== -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- ==== Main JavaScript ==== -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
